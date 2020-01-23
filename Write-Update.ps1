@@ -47,7 +47,7 @@ function Write-Update {
 
             "Warning" {
                 $Message = "[WARNING] " + $Message            
-                Write-Host $Message -ForegroundColor DarkYellow
+                Write-Host $Message -ForegroundColor Yellow
             }
     
             "Error" {
