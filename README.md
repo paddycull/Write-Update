@@ -1,5 +1,5 @@
 # Write-Update
-Powershell function that displays user friendly messages as well as optionally logging it to a file. When logging to a file, it timestamps the message as well. See the examples below for more info.
+Powershell function that displays user friendly messages as well as optionally logging it to a file. When logging to a file, it timestamps the message as well. If the -Logfile parameter is not set, it only displays the message. See the examples below for more info.
 
 ### Basic Usage
 ```powershell 
