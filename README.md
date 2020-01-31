@@ -7,7 +7,7 @@ Write-Update "This is a sample message" -UpdateType Normal -Logfile $Logfile
 ```
 ### Getting the message from the pipeline
 ```powershell 
-"This is a success message" | Write-Update -UpdateType Normal -Logfile $Logfile
+"This is a success message" | Write-Update -UpdateType Success -Logfile $Logfile
 ```
 
 # Output Examples
